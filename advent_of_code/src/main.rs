@@ -1,5 +1,6 @@
 mod day01;
 mod day03;
+mod day04;
 
 fn main() {
     let day1_part1 = day01::part_one();
@@ -10,6 +11,10 @@ fn main() {
     println!("Day 3, Part 1 {}", day3_part1);
     let day3_part2 = day03::part_two();
     println!("Day 3, Part 1 {}", day3_part2);
+    let day4_part1 = day04::part_one();
+    println!("Day 4, Part 1 {}", day4_part1);
+    let day4_part2 = day04::part_two();
+    println!("Day 4, Part 1 {}", day4_part2);
 
 }
 

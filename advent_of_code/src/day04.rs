@@ -38,11 +38,11 @@ fn compare_pairs(pairs: Vec<&str>) -> bool {
         true
     } else if pair2_range.contains(&&pair1[0]) && pair2_range.contains(&&pair1[1]) {
         true
-    } else { false }
-
+    } else { false };
 }
 
-pub fn part_two() -> u32 {    let file = file_in();
+pub fn part_two() -> u32 {
+    let file = file_in();
 
     let mut val: u32 = 0;
 
@@ -60,7 +60,6 @@ pub fn part_two() -> u32 {    let file = file_in();
         }
     }
     return val;
-
 }
 
 fn file_in() -> String {
@@ -86,6 +85,5 @@ fn compare_overlap(pairs: Vec<&str>) -> bool {
         true
     } else if pair2_range.contains(&&pair1[0]) || pair2_range.contains(&&pair1[1]) {
         true
-    } else { false }
-
+    } else { false };
 }

@@ -1,1 +1,0 @@
-/Users/houlasley/Documents/git/advent-of-code/advent_of_code/target/debug/advent_of_code: /Users/houlasley/Documents/git/advent-of-code/advent_of_code/src/day01.rs /Users/houlasley/Documents/git/advent-of-code/advent_of_code/src/main.rs
